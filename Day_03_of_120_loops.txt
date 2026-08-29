@@ -1,0 +1,38 @@
+# loops are used to execute same set of statements multiple times
+
+for i in range(5):
+    print(i)
+
+for i in range(3,5):
+    print(i)
+
+for i in range(1,10,2):
+    print(i)
+
+for i in range(5,0,-1):
+    print(i)
+
+num = int(input("Please enter the number "))
+
+for i in range(1,11):
+    print(f" {num} * {i} = {num * i}")
+
+############ while loop ##############
+
+i = 1
+while i <= 5:
+    print(i)
+    i = i + 1
+
+my_number = 34
+
+user_number = int(input("Please guess the number "))
+
+while my_number != user_number :
+    print("Sorry, wrong guess. Please guess again ")
+    user_number = int(input("Please guess the number "))
+print("Yeah! You guessed the number.")
+
+
+Task : 1. Guessing game, when user enters the number we have to show whether it is low or high and stop when number matches.
+       2. Guessing game to have 5 chances.
